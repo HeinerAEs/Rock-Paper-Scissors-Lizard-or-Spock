@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Piedra, Papel, Tijera, Lagarto o Spock</title>
+
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/estilos2.css">
+</head>
+<body>
+	<header>
+		<h1>Piedra, Papel, Tijera, Lagarto o Spock</h1>
+	</header>
+
+
+	<nav>
+		<div class="seleccione">
+			Seleccione una opción: 
+		</div>
+
+		<button type="button" id="reglas">Reglas</button>
+	</nav>
+
+	<section>
+		<article>
+			<div class="division usuario">
+				<p>Usuario</p>
+				<div class="radio Piedra">
+					<input type="radio" name="juegoPiedra" id="piedra" value="0" checked />
+					<label for="piedra"><img src="images/piedra.png" alt="piedra" title="piedra" width="50"></label>
+				</div>
+				<div class="radio Papel">
+					<input type="radio" name="juegoPiedra" id="papel" value="1" />
+					<label for="papel"><img src="images/papel.png" alt="papel" title="papel" width="50"></label>
+				</div>
+				<div class="radio Tijera">
+					<input type="radio" name="juegoPiedra" id="tijera" value="2" />
+					<label for="tijera"><img src="images/tijera.png" alt="tijera" title="tijera" width="50"></label>
+				</div>
+				<div class="radio Lagarto">
+					<input type="radio" name="juegoPiedra" id="lagarto" value="3" />
+					<label for="lagarto"><img src="images/lagarto.png" alt="piedra" title="piedra" width="50"></label>
+				</div>
+				<div class="radio Spock">
+					<input type="radio" name="juegoPiedra" id="spock" value="4" />
+					<label for="spock"><img src="images/spock.png" alt="Spock" title="Spock" width="50"></label>
+				</div>
+			</div>
+
+			<div class="resultado">
+				<div id="winnerLoser"> </div>
+				<div class="usuarioEleccion">
+					<h3>Usuario</h3> <img src="images/opcion.png" alt="piedra" title="piedra" width="180">
+				</div>
+				<div class="maquinaEleccion">
+					<h3>Maquina</h3> <img src="images/opcion.png" alt="papel" title="papel" width="180">
+				</div> 
+			</div>
+
+			<div class="division maquina">	
+				<p>Máquina</p>
+				<div><img src="images/piedra.png" alt="piedra" title="piedra" width="50"></div>
+				<div><img src="images/papel.png" alt="papel" title="papel" width="50"></div>
+				<div><img src="images/tijera.png" alt="tijera" title="tijera" width="50"></div>
+				<div><img src="images/lagarto.png" alt="piedra" title="piedra" width="50"></div>
+				<div><img src="images/spock.png" alt="Spock" title="Spock" width="50"></div>
+			</div>
+		</article>
+	</section>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/piedra2.js"></script>
+</body>
+</html>

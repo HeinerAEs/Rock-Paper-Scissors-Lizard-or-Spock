@@ -1,0 +1,111 @@
+body{ background: #B3E680; } b, p, h3, h4{ text-transform: uppercase; } p{ padding: 0px; } h4{margin: 0 auto; width: 730px; text-align: center; } section, header, nav{width: 1024px; margin: 0 auto; } header{background: #246000; color: white; opacity: .3; padding: 5px; text-align: center; text-shadow: 3px 3px 10px rgba(255, 255, 255, .8); } header h1{opacity: 1 !important; } nav{background: #E5FFB2; margin: 0 auto; opacity: .8; padding: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } nav .seleccione{border: 2px solid #669933; display: inline-block; padding: 3px 10px; background: #1A4D00; border: 5px double #eee; color: #eee; } article{background: #80B34D; color: #fff; display: inline-block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-bottom: 10px; width: 1024px; } input[type="radio"]{ display: none; } .division{display: inline-block; width: 140px; } .division > p{font-weight: bold; padding-top: -5px; } .resultado{color: #fff; display: inline-block; height: 200px; position: relative; top: -20px; width: 730px; } .resultado .usuarioEleccion, .resultado .maquinaEleccion{display: inline-block; text-align: center; width: 49%; } .malaEleccion{opacity: .4; } .empate{opacity: 1 !important; } .usuario, .resultado, .maquina{font-size: 15px; text-align: center; } .usuario:hover, .maquina:hover{opacity: 1; } .usuario img{cursor: pointer; } button{background: #669933; border-radius: 10px; color: #eee; float: right; padding: 3px 20px; } button:hover{ opacity: .7; }
+
+/*
+body{ background: #B3E680; }
+b, p, h3, h4{ text-transform: uppercase; }
+p{ padding: 0px; }
+
+h4{
+	margin: 0 auto;
+	width: 730px;
+	text-align: center;
+}
+
+section, header, nav{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	background: #246000;
+	color: white;
+	opacity: .3;
+	padding: 5px;
+	text-align: center;
+	text-shadow: 3px 3px 10px rgba(255, 255, 255, .8);
+}
+	header h1{
+		opacity: 1 !important;
+	}
+
+nav{
+	background: #E5FFB2;
+	margin: 0 auto;
+	opacity: .8;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+	nav .seleccione{
+		border: 2px solid #669933;
+		display: inline-block;
+		padding: 3px 10px;
+		background: #1A4D00;
+		border: 5px double #eee;
+		color: #eee;
+	}
+
+article{
+	background: #80B34D;
+	color: #fff;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	width: 1024px; 
+}
+	input[type="radio"]{ display: none; }
+
+	.division{
+		display: inline-block;
+		width: 140px;
+	}
+		.division > p{
+			font-weight: bold;
+			padding-top: -5px;
+		}
+
+	.resultado{
+		color: #fff;
+		display: inline-block;
+		height: 200px;
+		position: relative;
+		top: -20px;
+		width: 730px;
+	}
+		.resultado .usuarioEleccion, .resultado .maquinaEleccion{
+			display: inline-block;
+			text-align: center;
+			width: 49%;
+		}
+		.malaEleccion{
+			opacity: .4;
+		}
+		.empate{
+			opacity: 1 !important;
+		}
+
+	.usuario, .resultado, .maquina{
+		font-size: 15px;
+		text-align: center;
+	}
+
+		.usuario:hover, .maquina:hover{
+			opacity: 1;
+		}
+		.usuario img{
+			cursor: pointer;
+		}
+
+button{
+	background: #669933;
+	border-radius: 10px;
+	color: #eee;
+	float: right;
+	padding: 3px 20px;
+}
+	button:hover{ opacity: .7; }
+*/
