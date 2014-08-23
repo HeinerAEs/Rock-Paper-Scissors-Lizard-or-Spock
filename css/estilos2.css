@@ -21,9 +21,7 @@ header{
 	text-align: center;
 	text-shadow: 3px 3px 10px rgba(255, 255, 255, .8);
 }
-	header h1{
-		opacity: 1 !important;
-	}
+	header h1{ opacity: 1 !important; }
 
 nav{
 	background: #E5FFB2;
@@ -43,6 +41,7 @@ nav{
 		border: 5px double #eee;
 		color: #eee;
 	}
+		nav .seleccione:hover{ background: #f80; color: #eee; }
 
 article{
 	background: #80B34D;
@@ -78,23 +77,99 @@ article{
 			text-align: center;
 			width: 49%;
 		}
-		.malaEleccion{
-			opacity: .4;
+		.buenaEleccion{
+			-webkit-animation: animacion1 .5s linear .1s infinite alternate;
+			-o-animation: animacion1 .5s linear .1s infinite alternate;
+			animation: animacion1 .5s linear .1s infinite alternate;
 		}
-		.empate{
-			opacity: 1 !important;
+
+		@-webkit-keyframes animacion1 {
+			from {  
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			to {  
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
 		}
+		@-o-keyframes animacion1 {
+			from {  
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			to {  
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+		}
+		@-moz-keyframes animacion1 {
+			from {  
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			to {  
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+		}
+		@keyframes animacion1 {
+			from {  
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			to {  
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+		}
+
+		.malaEleccion{ opacity: .4; }
+		.empate{ opacity: 1 !important; }
 
 	.usuario, .resultado, .maquina{
 		font-size: 15px;
 		text-align: center;
 	}
 
-		.usuario:hover, .maquina:hover{
-			opacity: 1;
-		}
-		.usuario img{
-			cursor: pointer;
+		.usuario:hover, .maquina:hover{ opacity: 1; }
+		.usuario img{ cursor: pointer; }
+		.usuario img:hover{ 
+			-webkit-transform: scale(1.5 , 1.5);
+			-moz-transform: scale(1.5 , 1.5);
+			-ms-transform: scale(1.5 , 1.5);
+			-o-transform: scale(1.5 , 1.5);
+			transform: scale(1.5 , 1.5);
+
+			-webkit-transition: transform 1s;
+			-moz-transition: transform 1s;
+			-ms-transition: transform 1s;
+			-o-transition: transform 1s;
+			transition: transform 1s;
 		}
 
 button{

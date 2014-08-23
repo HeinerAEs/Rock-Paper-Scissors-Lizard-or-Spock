@@ -26,120 +26,120 @@ $("input[type=radio]").on("click", function(){
 
 		if (opcionMaquina == piedra) {
 			$("#winnerLoser").html("<h3>Empate! </h3>");
-			$(".usuarioEleccion").html('<img src="images/piedra.png" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/piedra.png" alt="piedra" width="180">');
+			$(".usuarioEleccion").html('<img src="images/piedra.png" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/piedra.png" alt="piedra" title="piedra" width="200">');
 		}else if (opcionMaquina == papel) {
 			$("#winnerLoser").html("<h3>Perdiste! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/papel.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == tijera) {
 			$("#winnerLoser").html("<h3>Ganaste! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/piedra.png" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/tijera.png" class="malaEleccion" alt="tijera" width="180">');
+			$(".usuarioEleccion").html('<img src="images/piedra.png" class="buenaEleccion" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/tijera.png" class="malaEleccion" alt="tijera" title="tijera" width="200">');
 		}else if (opcionMaquina == lagarto) {
 			$("#winnerLoser").html("<h3>Ganaste! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/piedra.png" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="malaEleccion" alt="lagarto" width="180">');
+			$(".usuarioEleccion").html('<img src="images/piedra.png" class="buenaEleccion" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="malaEleccion" alt="lagarto" title="lagarto" width="200">');
 		}else if (opcionMaquina == spock) {
 			$("#winnerLoser").html("<h3>Perdiste! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
+			$(".usuarioEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/spock.png" class="buenaEleccion" alt="spock" title="spock" width="200">');
 		}
 
 	}else if(opcioneUsuario == papel){
 
 		if (opcionMaquina == piedra) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/papel.png" alt="piedra" width="180">');
-			$(".maquinaEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="papel" width="180">');
+			$(".usuarioEleccion").html('<img src="images/papel.png" class="buenaEleccion" alt="piedra" title="piedra" width="200">');
+			$(".maquinaEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == papel) {
 			$("#winnerLoser").html("<h3>Empate! </h3>");
-			$(".usuarioEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
-			$(".maquinaEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html('<img src="images/papel.png" alt="papel" title="papel" width="200">');
+			$(".maquinaEleccion").html('<img src="images/papel.png" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == tijera) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/papel.png" class="malaEleccion" alt="papel" width="180">');
-			$(".maquinaEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/papel.png" class="malaEleccion" alt="papel" title="papel" width="200">');
+			$(".maquinaEleccion").html('<img src="images/tijera.png" class="buenaEleccion" alt="tijera" title="tijera" width="200">');
 		}else if (opcionMaquina == lagarto) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/papel.png" class="malaEleccion" alt="papel" width="180">');
-			$(".maquinaEleccion").html('<img src="images/lagarto.png" alt="lagarto" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/papel.png" class="malaEleccion" alt="papel" title="papel" width="200">');
+			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="buenaEleccion" alt="lagarto" title="lagarto" width="200">');
 		}else if (opcionMaquina == spock) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
-			$(".maquinaEleccion").html('<img src="images/spock.png" class="malaEleccion" alt="spock" width="180">');
+			$(".usuarioEleccion").html('<img src="images/papel.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
+			$(".maquinaEleccion").html('<img src="images/spock.png" class="malaEleccion" alt="spock" title="spock" width="200">');
 		}
 
 	}else if(opcioneUsuario == tijera){
 
 		if (opcionMaquina == piedra) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/tijera.png" class="malaEleccion" alt="tijera" width="180">');
-			$(".maquinaEleccion").html('<img src="images/piedra.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/tijera.png" class="malaEleccion" alt="tijera" title="tijera" width="200">');
+			$(".maquinaEleccion").html('<img src="images/piedra.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == papel) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
-			$(".maquinaEleccion").html('<img src="images/papel.png" class="malaEleccion" alt="papel" width="180">');
+			$(".usuarioEleccion").html('<img src="images/tijera.png" class="buenaEleccion" alt="tijera" title="tijera" width="200">');
+			$(".maquinaEleccion").html('<img src="images/papel.png" class="malaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == tijera) {
 			$("#winnerLoser").html("<h3>Empate! </h3>");
-			$(".usuarioEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
-			$(".maquinaEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
+			$(".usuarioEleccion").html('<img src="images/tijera.png" alt="tijera" title="tijera" width="200">');
+			$(".maquinaEleccion").html('<img src="images/tijera.png" alt="tijera" title="tijera" width="200">');
 		}else if (opcionMaquina == lagarto) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
-			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="malaEleccion" alt="lagarto" width="180">');
+			$(".usuarioEleccion").html('<img src="images/tijera.png" class="buenaEleccion" alt="tijera" title="tijera" width="200">');
+			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="malaEleccion" alt="lagarto" title="lagarto" width="200">');
 		}else if (opcionMaquina == spock) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/tijera.png" class="malaEleccion" alt="tijera" width="180">');
-			$(".maquinaEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/tijera.png" class="malaEleccion" alt="tijera" title="tijera" width="200">');
+			$(".maquinaEleccion").html('<img src="images/spock.png" class="buenaEleccion" alt="spock" title="spock" width="200">');
 		}
 
 	}else if(opcioneUsuario == lagarto){
 
 		if (opcionMaquina == piedra) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" width="180">');
-			$(".maquinaEleccion").html('<img src="images/piedra.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" title="lagarto" width="200">');
+			$(".maquinaEleccion").html('<img src="images/piedra.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == papel) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" width="180">');
-			$(".maquinaEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" title="lagarto" width="200">');
+			$(".maquinaEleccion").html('<img src="images/papel.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == tijera) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" width="180">');
-			$(".maquinaEleccion").html('<img src="images/tijera.png" alt="tijera" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/lagarto.png" class="malaEleccion" alt="lagarto" title="lagarto" width="200">');
+			$(".maquinaEleccion").html('<img src="images/tijera.png" class="buenaEleccion" alt="tijera" title="tijera" width="200">');
 		}else if (opcionMaquina == lagarto) {
 			$("#winnerLoser").html("<h3>Empate! </h3>");
-			$(".usuarioEleccion").html('<img src="images/lagarto.png" alt="lagarto" width="180">');
-			$(".maquinaEleccion").html('<img src="images/lagarto.png" alt="lagarto" width="180">');
+			$(".usuarioEleccion").html('<img src="images/lagarto.png" alt="lagarto" title="lagarto" width="200">');
+			$(".maquinaEleccion").html('<img src="images/lagarto.png" alt="lagarto" title="lagarto" width="200">');
 		}else if (opcionMaquina == spock) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/lagarto.png" alt="lagarto" width="180">');
-			$(".maquinaEleccion").html('<img src="images/spock.png" class="malaEleccion" alt="spock" width="180">');
+			$(".usuarioEleccion").html('<img src="images/lagarto.png" class="buenaEleccion" alt="lagarto" title="lagarto" width="200">');
+			$(".maquinaEleccion").html('<img src="images/spock.png" class="malaEleccion" alt="spock" title="spock" width="200">');
 		}
 
 	}else if(opcioneUsuario == spock){
 
 		if (opcionMaquina == piedra) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
-			$(".maquinaEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="papel" width="180">');
+			$(".usuarioEleccion").html('<img src="images/spock.png" class="buenaEleccion" alt="spock" title="spock" width="200">');
+			$(".maquinaEleccion").html('<img src="images/piedra.png" class="malaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == papel) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/spock.png" class="malaEleccion" alt="spock" width="180">');
-			$(".maquinaEleccion").html('<img src="images/papel.png" alt="papel" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/spock.png" class="malaEleccion" alt="spock" title="spock" width="200">');
+			$(".maquinaEleccion").html('<img src="images/papel.png" class="buenaEleccion" alt="papel" title="papel" width="200">');
 		}else if (opcionMaquina == tijera) {
 			$("#winnerLoser").html("<h3>Ganasté! </h3> ");
-			$(".usuarioEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
-			$(".maquinaEleccion").html('<img src="images/tijera.png" class="malaEleccion" alt="tijera" width="180">');
+			$(".usuarioEleccion").html('<img src="images/spock.png" class="buenaEleccion" alt="spock" title="spock" width="200">');
+			$(".maquinaEleccion").html('<img src="images/tijera.png" class="malaEleccion" alt="tijera" title="tijera" width="200">');
 		}else if (opcionMaquina == lagarto) {
 			$("#winnerLoser").html("<h3>Perdisté! </h3>");
-			$(".usuarioEleccion").html(' <img src="images/spock.png" class="malaEleccion" alt="spock" width="180">');
-			$(".maquinaEleccion").html('<img src="images/lagarto.png" alt="lagarto" width="180">');
+			$(".usuarioEleccion").html(' <img src="images/spock.png" class="malaEleccion" alt="spock" title="spock" width="200">');
+			$(".maquinaEleccion").html('<img src="images/lagarto.png" class="buenaEleccion" alt="lagarto" title="lagarto" width="200">');
 		}else if (opcionMaquina == spock) {
 			$("#winnerLoser").html("<h3>Empate! </h3>");
-			$(".usuarioEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
-			$(".maquinaEleccion").html('<img src="images/spock.png" alt="spock" width="180">');
+			$(".usuarioEleccion").html('<img src="images/spock.png" alt="spock" title="spock" width="200">');
+			$(".maquinaEleccion").html('<img src="images/spock.png" alt="spock" title="spock" width="200">');
 		}
 	}
 
